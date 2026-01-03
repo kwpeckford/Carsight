@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "sedan_demo",
+  "subject_a": "Gas",
+  "subject_b": "MHEV",
+  "upfront_delta": 0,
+  "annual_operating_delta_p50": -326.4000000000001,
+  "break_even_year_p50": 1,
+  "horizon_delta": {
+    "p10": -2342.000000000022,
+    "p50": -2508.0000000000073,
+    "p90": -2907.5000000000146
+  },
+  "reasons": [
+    {
+      "factor": "upfront",
+      "delta": 0
+    },
+    {
+      "factor": "operating_p50",
+      "delta": -326.4000000000001
+    },
+    {
+      "factor": "resale_p50",
+      "delta": 876.0
+    }
+  ]
+}
