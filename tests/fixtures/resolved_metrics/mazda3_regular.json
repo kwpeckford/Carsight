@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "vehicle_id": "mazda3_gt_gas",
+  "fuel_price_per_liter": { "p10": 1.45, "p50": 1.65, "p90": 1.95 },
+  "fuel_efficiency_l_per_100km": { "p10": 6.8, "p50": 7.2, "p90": 7.8 },
+  "depreciation": [
+    { "year": 0, "retention": { "p10": 1.0, "p50": 1.0, "p90": 1.0 } },
+    { "year": 1, "retention": { "p10": 0.83, "p50": 0.8, "p90": 0.76 } },
+    { "year": 3, "retention": { "p10": 0.65, "p50": 0.6, "p90": 0.55 } },
+    { "year": 5, "retention": { "p10": 0.5, "p50": 0.45, "p90": 0.4 } }
+  ],
+  "maintenance_per_year": { "p10": 350, "p50": 500, "p90": 700 },
+  "insurance_per_year": { "p10": 1200, "p50": 1400, "p90": 1600 }
+}

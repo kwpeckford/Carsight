@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "vehicle_key": "mazda3_gt",
+  "region": "Canada/ON/Toronto",
+  "mileage": { "p10": 12000, "p50": 18000, "p90": 23000, "sample_size": 420, "last_updated": "2024-10-01" },
+  "prices": [
+    {
+      "level": "model",
+      "label": "Mazda3",
+      "price": { "p10": 23500, "p50": 27000, "p90": 30500 },
+      "sample_size": 310,
+      "last_updated": "2024-09-15"
+    },
+    {
+      "level": "variant",
+      "label": "Mazda3 GT",
+      "price": { "p10": 25500, "p50": 28500, "p90": 32500 },
+      "sample_size": 160,
+      "last_updated": "2024-09-15"
+    }
+  ]
+}
