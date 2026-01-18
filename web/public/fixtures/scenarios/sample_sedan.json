@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "sedan_demo",
+  "vehicle": {
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2021,
+    "trim": "GT",
+    "purchase_price": 28000,
+    "fees": 1200,
+    "financing": {
+      "apr_percent": 4.5,
+      "term_months": 48,
+      "down_payment": 3000
+    }
+  },
+  "location": {
+    "country": "Canada",
+    "province": "ON",
+    "city": "Toronto",
+    "currency": "CAD",
+    "unit_system": "metric"
+  },
+  "usage": {
+    "annual_km": 18000,
+    "horizon_years": 5
+  },
+  "assumptions": {
+    "include_insurance": true,
+    "include_maintenance": true
+  }
+}

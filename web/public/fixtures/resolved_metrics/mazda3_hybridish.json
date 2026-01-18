@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "vehicle_id": "mazda3_gt_mhev",
+  "fuel_price_per_liter": { "p10": 1.45, "p50": 1.65, "p90": 1.95 },
+  "fuel_efficiency_l_per_100km": { "p10": 5.6, "p50": 6.0, "p90": 6.5 },
+  "depreciation": [
+    { "year": 0, "retention": { "p10": 1.0, "p50": 1.0, "p90": 1.0 } },
+    { "year": 1, "retention": { "p10": 0.84, "p50": 0.82, "p90": 0.78 } },
+    { "year": 3, "retention": { "p10": 0.68, "p50": 0.63, "p90": 0.58 } },
+    { "year": 5, "retention": { "p10": 0.53, "p50": 0.48, "p90": 0.43 } }
+  ],
+  "maintenance_per_year": { "p10": 320, "p50": 480, "p90": 700 },
+  "insurance_per_year": { "p10": 1250, "p50": 1450, "p90": 1650 }
+}
